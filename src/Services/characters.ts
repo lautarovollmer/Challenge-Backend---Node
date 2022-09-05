@@ -44,4 +44,27 @@ const createCharacter = async (req: Request, res: Response) => {
   }
 };
 
+const editCharacter = async (req: Request, res: Response) => {
+  try{
+    const { id } = req.params
+    const { image, name, age, history} = req.body;
+    const findChar = await Character.findOne({ where: { id: id } })
+    if (findChar) {
+      await Character.update({
+        name: name ? name : findChar.name,
+        age: age ? age : findChar.age,
+        img: image ? image : findChar.image,
+        history: history ? history : findChar.history
+    }, { where: { id: id } });
+
+    return res.send({
+        message: "Character Updated!"
+    })
+    }
+  } catch(error) {
+    console.log(error);
+    return res.status(400).json({ mensaje: "Error to edit Character" });
+  }
+}
+
 export { getPersonajes, createCharacter };
