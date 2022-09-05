@@ -58,7 +58,7 @@ const editCharacter = async (req: Request, res: Response) => {
     }, { where: { id: id } });
 
     return res.send({
-        message: "Character Updated!"
+        message: `Products ${id} Update Successfully`
     })
     }
   } catch(error) {
@@ -67,4 +67,14 @@ const editCharacter = async (req: Request, res: Response) => {
   }
 }
 
-export { getPersonajes, createCharacter };
+const deleteCharacter = async (req: Request, res: Response) => {
+  try{
+    const { id } = req.params;
+    await Character.deleted({ where: { id: id } });
+         res.json(`Character id: ${id}, deleted successfully`)
+    } catch (error) {
+    console.log(error)
+  }
+}
+
+export { getPersonajes, createCharacter, editCharacter, deleteCharacter };
