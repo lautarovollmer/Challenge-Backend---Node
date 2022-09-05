@@ -1,0 +1,14 @@
+[
+  {
+    "image": "none",
+    "title": "Mickey's House of Villains",
+    "date": "2002",
+    "genre": "Animation"
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/en/f/f3/A_Goofy_Movie_poster.jpg",
+    "title": "A Goofy Movie",
+    "date": "1995",
+    "genre": ["Animación", "Road movie", "Comedia"]
+  }
+]

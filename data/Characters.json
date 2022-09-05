@@ -1,0 +1,16 @@
+[
+  {
+    "image": "https://static.wikia.nocookie.net/doblaje/images/3/3a/Mickey_mouse-1097.jpg/revision/latest?cb=20130925015641&path-prefix=es",
+    "name": "Mickey Mouse",
+    "age": 92,
+    "history": "Mickey Mouse (también llamado Ratón Mickey) es un personaje de dibujos animados y emblema de la compañía Disney. Creado el 18 de noviembre de 1928, este ratón tiene un origen disputado. La leyenda oficial explica que fue creado por Walt Disney durante un viaje en tren de vuelta a California tras descubrir que no poseía el copyright de Oswald, el conejo afortunado, por lo que concibió un ratoncito vivaz de orejas grandes que quiso llamar Mortimer.",
+    "movie or series": ["Mickey's House of Villains"]
+  },
+  {
+    "image": "https://static.wikia.nocookie.net/disney/images/e/e5/Goofy.png/revision/latest/scale-to-width-down/350?cb=20140306174418&path-prefix=es",
+    "name": "Goofy Goof",
+    "age": 89,
+    "history": "Goofy (también conocido como Tribilín), o Goofy Goof, es un personaje perruno de ficción de Disney. Es uno de los mejores amigos de Mickey Mouse. Es el padre de Max Goof, a diferencia de la mayoría de los personajes relacionados (Mickey, Minnie, Donald…), que suelen ser tíos.",
+    "movie or series": ["A Goofy Movie"]
+  }
+]
