@@ -1,6 +1,7 @@
 import express, { Router } from "express";
 import { createCharacter, getCharacters, editCharacter, deleteCharacter } from "../Services/characters";
-import { loginUser, registerUser } from "../Services/user";
+import { createGenre, deleteGenre, editGenre, getGenres} from "../Services/genre";
+import { loginUser, registerUser, deleteUser, editUser } from "../Services/user";
 import { verifyToken } from "../Services/verifyToken";
 
 const router = Router();

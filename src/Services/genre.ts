@@ -58,3 +58,5 @@ const getGenres = async (req: any, res: Response) => {
       return res.status(500).json({ mensaje: "Error to delete Genre" });
     }
   };
+
+  export { getGenres, getGenreById, createGenre, editGenre, deleteGenre };
